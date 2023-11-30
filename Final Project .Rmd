@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+library(readr)
+NBA_data <- read_csv("~/Desktop/final_data.csv")
+
+View(NBA_data)
+```
+
+
